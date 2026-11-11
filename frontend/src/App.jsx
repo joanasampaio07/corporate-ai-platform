@@ -34,8 +34,8 @@ export default function App() {
   const [loading, setLoading] = useState(false);
 
   // Estados de Login
-  const [loginEmail, setLoginEmail] = useState('admin@fiec.org.br');
-  const [loginPassword, setLoginPassword] = useState('admin123');
+  const [loginEmail, setLoginEmail] = useState('');
+  const [loginPassword, setLoginPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
   const [loginError, setLoginError] = useState('');
   const [loginLoading, setLoginLoading] = useState(false);
@@ -338,34 +338,6 @@ export default function App() {
               {loginLoading ? 'Autenticando...' : 'Entrar no Sistema Seguro'}
             </button>
           </form>
-
-          {/* Atalho Rápido para Avaliadores */}
-          <div style={{ marginTop: '1.75rem', paddingTop: '1.25rem', borderTop: '1px solid #1e293b', textAlign: 'center' }}>
-            <p style={{ color: '#64748b', fontSize: '0.75rem', marginBottom: '0.75rem' }}>
-              Credenciais de Acesso da Avaliação:
-            </p>
-            <div style={{ display: 'flex', gap: '0.5rem', justifyContent: 'center' }}>
-              <button
-                type="button"
-                onClick={() => {
-                  setLoginEmail('admin@fiec.org.br');
-                  setLoginPassword('admin123');
-                }}
-                style={{
-                  backgroundColor: '#1e293b',
-                  border: '1px solid #334155',
-                  color: '#38bdf8',
-                  padding: '0.4rem 0.75rem',
-                  borderRadius: '0.375rem',
-                  fontSize: '0.75rem',
-                  cursor: 'pointer',
-                  fontWeight: '500'
-                }}
-              >
-                👤 Admin (Joana Sampaio)
-              </button>
-            </div>
-          </div>
         </div>
       </div>
     );
