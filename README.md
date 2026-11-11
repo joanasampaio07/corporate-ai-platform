@@ -6,6 +6,12 @@
 [![Docker](https://img.shields.io/badge/DevOps-Docker%20Compose-2496ED.svg?logo=docker)](https://docker.com)
 [![LGPD](https://img.shields.io/badge/Compliance-LGPD%20%26%20Sanitização-10B981.svg)](#segurança-e-lgpd)
 [![Tests](https://img.shields.io/badge/Tests-Pytest%20Suite-green.svg)](#testes-automatizados)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-blue.svg?logo=github)](https://joanasampaio07.github.io/corporate-ai-platform/)
+
+---
+
+> 🌐 **Acesse a Aplicação Online (Live Demo):**  
+> 👉 **[https://joanasampaio07.github.io/corporate-ai-platform/](https://joanasampaio07.github.io/corporate-ai-platform/)**
 
 ---
 
@@ -118,3 +124,4 @@ O frontend possui um **GitHub Action** configurado em `.github/workflows/deploy-
 **Desenvolvido por:** Joana Paula Cardoso Sampaio  
 **Perfil:** Desenvolvedora Full Stack Sênior  
 **Candidatura:** Processo Seletivo SESI GETIC (FIEC) — Cód. 7758
+
